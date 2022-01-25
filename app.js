@@ -43,5 +43,5 @@ app.get('/', (req, res)=>{
 
 //set up port for connection
 app.listen(port, ()=>{
-    console.log('Connected on port 3000')
-})
+    console.log(`Connected on port ${port}`)
+}) 
